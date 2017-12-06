@@ -28,33 +28,32 @@ describe('MealPal Selection', function () {
   it('searching for a selection', function () {
     var todayDate = new Date();
     var day = todayDate.getDay();
-    search.locationInput.setValue('Union Square');
+    search.locationInput.setValue('Flatiron District');
     if (day == 0) {
-      search.searchInput.setValue('');
+      search.searchInput.setValue('indikitch');
       search.searchIcon.click();
       browser.pause(1500);
+      search.firstMeal.click();
     } else if (day == 1) {
-      search.searchInput.setValue('nanoosh');
+      search.searchInput.setValue('indikitch');
       search.searchIcon.click();
       browser.pause(1500);
-      expect(search.nanooshText.isVisible()).toBe(true);
-      search.nanooshImage.click();
+      search.firstMeal.click();
     } else if (day == 2) {
-      search.searchInput.setValue('nanoosh');
+      search.searchInput.setValue('indikitch');
       search.searchIcon.click();
       browser.pause(1500);
-      expect(search.nanooshText.isVisible()).toBe(true);
-      search.nanooshImage.click();
+      search.firstMeal.click();
     } else if (day == 3) {
-      search.searchInput.setValue('');
+      search.searchInput.setValue('indikitch');
       search.searchIcon.click();
       browser.pause(1500);
+      search.firstMeal.click();
     } else if (day == 4) {
-      search.searchInput.setValue('num pang');
+      search.searchInput.setValue('indikitch');
       search.searchIcon.click();
       browser.pause(1500);
-      expect(search.numPangText.isVisible()).toBe(true);
-      search.numPangImage.click();
+      search.firstMeal.click();
     }
   });
 

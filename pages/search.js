@@ -4,6 +4,7 @@ var SearchPage = Object.create(Page, {
 
     // Elements
     dropDown: { get: function () { return browser.element("[class*='meal'] > [class*='meal-dropdown__button']"); } },
+    firstMeal: { get: function () { return browser.element("//div[1]/div[@bindonce='schedule']"); } },
     locationInput: { get: function () { return browser.element("input[placeholder='Search by location']"); } },
     popUpDismiss: { get: function () { return browser.element("//span[text()='I did not have this meal.']"); } },
     reserveButton: { get: function () { return browser.element("[class='mp-reserve-button mp-reserve-button--lunch']"); } },
