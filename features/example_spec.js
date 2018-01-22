@@ -30,27 +30,27 @@ describe('MealPal Selection', function () {
     var day = todayDate.getDay();
     search.locationInput.setValue('Flatiron District');
     if (day == 0) {
-      search.searchInput.setValue('indikitch');
+      search.searchInput.setValue('roast kitchen');
       search.searchIcon.click();
       browser.pause(1500);
       search.firstMeal.click();
     } else if (day == 1) {
-      search.searchInput.setValue('indikitch');
+      search.searchInput.setValue('roast kitchen');
       search.searchIcon.click();
       browser.pause(1500);
       search.firstMeal.click();
     } else if (day == 2) {
-      search.searchInput.setValue('indikitch');
+      search.searchInput.setValue('roast kitchen');
       search.searchIcon.click();
       browser.pause(1500);
       search.firstMeal.click();
     } else if (day == 3) {
-      search.searchInput.setValue('indikitch');
+      search.searchInput.setValue('roast kitchen');
       search.searchIcon.click();
       browser.pause(1500);
       search.firstMeal.click();
     } else if (day == 4) {
-      search.searchInput.setValue('indikitch');
+      search.searchInput.setValue('roast kitchen');
       search.searchIcon.click();
       browser.pause(1500);
       search.firstMeal.click();
