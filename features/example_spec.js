@@ -28,7 +28,7 @@ describe('MealPal Selection', function () {
   it('searching for a selection', function () {
     var todayDate = new Date();
     var day = todayDate.getDay();
-    search.locationInput.setValue('Flatiron District');
+    search.locationInput.setValue('Union Square');
     if (day == 0) {
       search.searchInput.setValue('roast kitchen');
       search.searchIcon.click();
