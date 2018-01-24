@@ -45,7 +45,7 @@ describe('MealPal Selection', function () {
       browser.pause(1500);
       search.firstMeal.click();
     } else if (day == 3) {
-      search.searchInput.setValue('roast kitchen');
+      search.searchInput.setValue('num pang');
       search.searchIcon.click();
       browser.pause(1500);
       search.firstMeal.click();
